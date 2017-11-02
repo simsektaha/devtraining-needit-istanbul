@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_embedded_help_content">
+    <sys_embedded_help_content action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category>discovery</category>
+        <content><![CDATA[ <h1 class="title topictitle1">Discovery probes</h1>  <div class="body conbody">  <p class="p"><span class="ph">Probes are launched by the MID Server to collect all the      information that you want returned from a device.</span>   For example, the base instance has probes to get the names of <span class="ph">Windows</span> and <span class="ph">Linux</span> devices, and separate exploration   probes that return disk information for devices with those operating systems. View each probe&#39;s   results in the ECC queue, which displays specifics such as the time the probe ran and its   payload. For each probe, you must also create a sensor to process the data that the probe   returns.</p> </div> <div class="related-links"><div class="relinfo"><div class="reltitle">Related information<br /><div><a class="link" href="https://docs.servicenow.com/?context&#61;CSHelp:Probe&amp;version&#61;jakarta" target="_blank" rel="nofollow">Discovery probes</a></div><div><a class="link" href="https://docs.servicenow.com/?context&#61;CSHelp:ListDiscoveryProbes&amp;version&#61;jakarta" target="_blank" rel="nofollow">List of Discovery probes</a></div><div><a class="link" href="https://docs.servicenow.com/?context&#61;CSHelp:ECCQueueAccess&amp;version&#61;jakarta" target="_blank" rel="nofollow">Access the ECC queue</a></div></div></div></div>]]></content>
+        <last_sync>2017-10-19 09:24:21</last_sync>
+        <modifier>normal</modifier>
+        <name>discovery_probes-normal</name>
+        <page>discovery_probes</page>
+        <product>1</product>
+        <qualifier/>
+        <role/>
+        <role_order>1000</role_order>
+        <snc_created>true</snc_created>
+        <sys_class_name>sys_embedded_help_content</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2017-07-20 14:30:13</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>5512a1420f0043005239306be1050e88</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>discovery_probes-normal</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_embedded_help_content_5512a1420f0043005239306be1050e88</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2017-10-19 09:24:21</sys_updated_on>
+        <version>j</version>
+    </sys_embedded_help_content>
+    <sys_translated_text action="delete_multiple" query="documentkey=5512a1420f0043005239306be1050e88"/>
+</record_update>
