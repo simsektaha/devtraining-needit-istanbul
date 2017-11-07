@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_embedded_help_content">
+    <sys_embedded_help_content action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category>discovery</category>
+        <content><![CDATA[    <h1 class="title topictitle1">Discovery process handlers</h1>        <div class="body taskbody">        <div class="section context">Discovery process handlers prevent the creation of duplicate CIs by filtering out            parameters known to have inconsistent values before process classification occurs. </div>        <ol class="ol steps"><li class="li step stepexpand">                <span class="ph cmd">Complete the fields on the Process Handler form.</span>                <div class="itemgroup info">                    <div class="p">                        <div class="tablenoborder"><table id="discovery_proc_handler-normal__table_c21_qj1_c1b" class="table"><thead class="thead"><tr class="row"><th class="entry" id="d368963e48">Field</th><th class="entry" id="d368963e51">Description</th></tr></thead><tbody class="tbody"><tr class="row"><td class="entry">Name</td><td class="entry"><span class="ph">Enter a unique name for the                                                process handler record.</span></td></tr><tr class="row"><td class="entry">Active</td><td class="entry"><span class="ph">Select the check box to run                                                the process handler.</span></td></tr><tr class="row"><td class="entry">Classify</td><td class="entry">                                            <ul class="ul" id="discovery_proc_handler-normal__ul_gqq_sj1_c1b"><li class="li">Select the check box to enable classification of                                                  any Running Process [cmdb_running_process] record                                                  that matches this Process Handler&#39;s conditions. </li><li class="li">Clear the checkbox to disable classification of                                                  any Running Process [cmdb_running_process] record                                                  that matches this Process Handler&#39;s                                                  conditions.</li></ul>                                        </td></tr><tr class="row"><td class="entry">Condition</td><td class="entry"><span class="ph">Select the conditions                                                that trigger the process handler to run the script.                                                In most cases, this condition contains either                                                specific executable names or the presence of certain                                                parameters.</span></td></tr><tr class="row"><td class="entry">Script</td><td class="entry"><span class="ph">Enter the JavaScript you want to                                                run on the current record in the Running Process                                                [cmdb_running_process] table when the                                                  <span class="ph uicontrol">Condition</span> is met. The                                                  current variable is a reference                                                to a Running Process GlideRecord. The script should                                                examine current.parameters for                                                certain values, perform string replacement to                                                manipulate these values, and save the result to                                                  current.key_parameters. </span><p class="p"><span class="ph">ServiceNow</span> uses the <span class="ph uicontrol">key_parameters</span>                                                field, together with the process name, to determine                                                whether the process is unique on a specific machine.                                            </p></td></tr></tbody></table></div>                    </div>                </div>            </li><li class="li step stepexpand">                <span class="ph cmd">Click <span class="ph uicontrol">Submit</span>.</span>            </li></ol>    </div>    <div class="related-links"><div class="relinfo"><div class="reltitle">Related information<br /><div><a class="link" href="https://docs.servicenow.com/?context&#61;CSHelp:ProcessHandlers&amp;version&#61;jakarta" target="_blank" rel="nofollow">Discovery process handlers</a></div></div></div></div>]]></content>
+        <last_sync>2017-11-06 13:12:12</last_sync>
+        <modifier>normal</modifier>
+        <name>discovery_proc_handler-normal</name>
+        <page>discovery_proc_handler</page>
+        <product>1</product>
+        <qualifier/>
+        <role/>
+        <role_order>1000</role_order>
+        <snc_created>true</snc_created>
+        <sys_class_name>sys_embedded_help_content</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2017-07-20 14:37:08</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>26a361820f0043005239306be1050e4d</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>discovery_proc_handler-normal</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_embedded_help_content_26a361820f0043005239306be1050e4d</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2017-11-06 13:12:12</sys_updated_on>
+        <version>j</version>
+    </sys_embedded_help_content>
+    <sys_translated_text action="delete_multiple" query="documentkey=26a361820f0043005239306be1050e4d"/>
+</record_update>
